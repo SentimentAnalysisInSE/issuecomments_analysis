@@ -1,0 +1,403 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 8208,
+    "features": 5
+  },
+  "sentiment": {
+    "document": {
+      "score": 0.70441,
+      "label": "positive"
+    }
+  },
+  "retrieved_url": "https://www.rasmussen.edu/degrees/technology/blog/what-does-software-developer-do/",
+  "language": "en",
+  "keywords": [
+    {
+      "text": "great software developer",
+      "relevance": 0.90604,
+      "count": 1
+    },
+    {
+      "text": "software developer",
+      "relevance": 0.764498,
+      "count": 6
+    },
+    {
+      "text": "professional software developers",
+      "relevance": 0.668399,
+      "count": 1
+    },
+    {
+      "text": "Software developers",
+      "relevance": 0.596884,
+      "count": 10
+    },
+    {
+      "text": "average software developer salary",
+      "relevance": 0.591627,
+      "count": 1
+    },
+    {
+      "text": "U.S. Department of Labor",
+      "relevance": 0.586463,
+      "count": 2
+    },
+    {
+      "text": "software applications developers",
+      "relevance": 0.581749,
+      "count": 5
+    },
+    {
+      "text": "types of careers",
+      "relevance": 0.580283,
+      "count": 1
+    },
+    {
+      "text": "techy job",
+      "relevance": 0.577147,
+      "count": 1
+    },
+    {
+      "text": "nature of their work",
+      "relevance": 0.573861,
+      "count": 1
+    },
+    {
+      "text": "Bureau of Labor Statistics",
+      "relevance": 0.565508,
+      "count": 1
+    },
+    {
+      "text": "national average",
+      "relevance": 0.558533,
+      "count": 1
+    },
+    {
+      "text": "common software developer job duties",
+      "relevance": 0.555251,
+      "count": 1
+    },
+    {
+      "text": "lot of the characteristics of a person",
+      "relevance": 0.547908,
+      "count": 1
+    },
+    {
+      "text": "systems software developers",
+      "relevance": 0.546378,
+      "count": 3
+    },
+    {
+      "text": "software solutions",
+      "relevance": 0.545867,
+      "count": 1
+    },
+    {
+      "text": "mobile applications",
+      "relevance": 0.53523,
+      "count": 1
+    },
+    {
+      "text": "work environment",
+      "relevance": 0.534469,
+      "count": 1
+    },
+    {
+      "text": "median annual salary",
+      "relevance": 0.53401,
+      "count": 1
+    },
+    {
+      "text": "specific program",
+      "relevance": 0.532997,
+      "count": 1
+    },
+    {
+      "text": "average rate",
+      "relevance": 0.529785,
+      "count": 1
+    },
+    {
+      "text": "Salary ranges",
+      "relevance": 0.529281,
+      "count": 1
+    },
+    {
+      "text": "big part of their work",
+      "relevance": 0.528614,
+      "count": 1
+    },
+    {
+      "text": "great place",
+      "relevance": 0.525097,
+      "count": 1
+    },
+    {
+      "text": "computer programs",
+      "relevance": 0.52482,
+      "count": 1
+    },
+    {
+      "text": "National Center",
+      "relevance": 0.52368,
+      "count": 1
+    },
+    {
+      "text": "1U.S. Department of Labor",
+      "relevance": 0.521388,
+      "count": 1
+    },
+    {
+      "text": "2Bureau of Labor Statistics",
+      "relevance": 0.521127,
+      "count": 1
+    },
+    {
+      "text": "systems-level software",
+      "relevance": 0.520998,
+      "count": 1
+    },
+    {
+      "text": "understanding user needs",
+      "relevance": 0.520912,
+      "count": 1
+    },
+    {
+      "text": "computer game",
+      "relevance": 0.520237,
+      "count": 1
+    },
+    {
+      "text": "main classifications of developers",
+      "relevance": 0.518979,
+      "count": 1
+    },
+    {
+      "text": "whole point",
+      "relevance": 0.518214,
+      "count": 1
+    },
+    {
+      "text": "program",
+      "relevance": 0.517425,
+      "count": 3
+    },
+    {
+      "text": "critical role",
+      "relevance": 0.516784,
+      "count": 1
+    },
+    {
+      "text": "Occupational Outlook Handbook",
+      "relevance": 0.516403,
+      "count": 1
+    },
+    {
+      "text": "actual creation of software programs",
+      "relevance": 0.51501,
+      "count": 1
+    },
+    {
+      "text": "network distribution software",
+      "relevance": 0.515001,
+      "count": 1
+    },
+    {
+      "text": "tedious work",
+      "relevance": 0.514616,
+      "count": 1
+    },
+    {
+      "text": "variety of industries",
+      "relevance": 0.514565,
+      "count": 2
+    },
+    {
+      "text": "step of the process",
+      "relevance": 0.514545,
+      "count": 1
+    },
+    {
+      "text": "software development",
+      "relevance": 0.514473,
+      "count": 2
+    },
+    {
+      "text": "job duties",
+      "relevance": 0.513443,
+      "count": 1
+    },
+    {
+      "text": "BLS",
+      "relevance": 0.513159,
+      "count": 4
+    },
+    {
+      "text": "lot of time",
+      "relevance": 0.512345,
+      "count": 1
+    },
+    {
+      "text": "future upgrades",
+      "relevance": 0.511714,
+      "count": 1
+    },
+    {
+      "text": "types of programs",
+      "relevance": 0.510992,
+      "count": 1
+    },
+    {
+      "text": "type",
+      "relevance": 0.510044,
+      "count": 1
+    },
+    {
+      "text": "design",
+      "relevance": 0.509289,
+      "count": 2
+    },
+    {
+      "text": "Intrinsic motivation",
+      "relevance": 0.508969,
+      "count": 1
+    }
+  ],
+  "entities": [
+    {
+      "type": "Organization",
+      "text": "U.S. Department of Labor",
+      "relevance": 0.954934,
+      "disambiguation": {
+        "subtype": [
+          "GovernmentAgency",
+          "GovernmentalBody"
+        ],
+        "name": "United_States_Department_of_Labor",
+        "dbpedia_resource": "http://dbpedia.org/resource/United_States_Department_of_Labor"
+      },
+      "count": 2,
+      "confidence": 0.966489
+    },
+    {
+      "type": "Organization",
+      "text": "Bureau of Labor Statistics",
+      "relevance": 0.717405,
+      "disambiguation": {
+        "subtype": [
+          "GovernmentAgency",
+          "GovernmentalBody"
+        ],
+        "name": "Bureau_of_Labor_Statistics",
+        "dbpedia_resource": "http://dbpedia.org/resource/Bureau_of_Labor_Statistics"
+      },
+      "count": 4,
+      "confidence": 0.998679
+    },
+    {
+      "type": "Organization",
+      "text": "DOL",
+      "relevance": 0.544774,
+      "count": 1,
+      "confidence": 0.968528
+    },
+    {
+      "type": "Quantity",
+      "text": "31 percent",
+      "relevance": 0.301357,
+      "count": 1,
+      "confidence": 0.8
+    },
+    {
+      "type": "Quantity",
+      "text": "11 percent",
+      "relevance": 0.253067,
+      "count": 1,
+      "confidence": 0.8
+    },
+    {
+      "type": "Quantity",
+      "text": "$107,600",
+      "relevance": 0.224621,
+      "count": 1,
+      "confidence": 0.8
+    },
+    {
+      "type": "Quantity",
+      "text": "$101,790",
+      "relevance": 0.20845,
+      "count": 1,
+      "confidence": 0.8
+    },
+    {
+      "type": "Quantity",
+      "text": "$37,690",
+      "relevance": 0.198639,
+      "count": 1,
+      "confidence": 0.8
+    },
+    {
+      "type": "Organization",
+      "text": "U.S. Department of Labor, National Center",
+      "relevance": 0.10641,
+      "count": 1,
+      "confidence": 0.593937
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Computer software",
+      "relevance": 0.974764,
+      "dbpedia_resource": "http://dbpedia.org/resource/Computer_software"
+    },
+    {
+      "text": "Software developer",
+      "relevance": 0.900058,
+      "dbpedia_resource": "http://dbpedia.org/resource/Software_developer"
+    },
+    {
+      "text": "Computer program",
+      "relevance": 0.877573,
+      "dbpedia_resource": "http://dbpedia.org/resource/Computer_program"
+    },
+    {
+      "text": "System software",
+      "relevance": 0.845973,
+      "dbpedia_resource": "http://dbpedia.org/resource/System_software"
+    },
+    {
+      "text": "Programmer",
+      "relevance": 0.703987,
+      "dbpedia_resource": "http://dbpedia.org/resource/Programmer"
+    },
+    {
+      "text": "Application software",
+      "relevance": 0.697622,
+      "dbpedia_resource": "http://dbpedia.org/resource/Application_software"
+    },
+    {
+      "text": "Software engineering",
+      "relevance": 0.697502,
+      "dbpedia_resource": "http://dbpedia.org/resource/Software_engineering"
+    },
+    {
+      "text": "Software development",
+      "relevance": 0.686436,
+      "dbpedia_resource": "http://dbpedia.org/resource/Software_development"
+    }
+  ],
+  "categories": [
+    {
+      "score": 0.987653,
+      "label": "/technology and computing/software"
+    },
+    {
+      "score": 0.98079,
+      "label": "/business and industrial/business software"
+    },
+    {
+      "score": 0.941548,
+      "label": "/technology and computing/computer certification"
+    }
+  ]
