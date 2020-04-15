@@ -7,12 +7,14 @@ def Anylize(filename):
     negative = 0
     error = 0
     mismatch = 0
+    total = 0
     with open( filename , newline='') as csvfile:
         FileText = csv.reader(csvfile, delimiter='\n')
         
         for row in FileText:
             manuelLabel = row[0].split(",")[6]
             contents = row[0].split(",")[2]
+            total +=1
             if (contents == "neutral"):
                 neutral += 1
             elif (contents == "positive"):
@@ -29,8 +31,8 @@ def Anylize(filename):
         csvfile.close()  
 
         writer = open("anylized.csv", 'w')
-        writer.write("Positive,Neutral,Negative,Mismatch\n")
-        writer.write(str(positive) +"," + str(neutral) +","+str(negative)+","+str(mismatch))
+        writer.write("Positive,Neutral,Negative,Mismatch,Total\n")
+        writer.write(str(positive) +"," + str(neutral) +","+str(negative)+","+str(mismatch)+","+str(total))
 
 
 def main():
