@@ -1,6 +1,7 @@
 # referenced http://docs.aws.amazon.com/general/latest/gr/signature-v4-examples.html#signature-v4-examples-python
 import sys, os, base64, datetime, hashlib, hmac
 import requests
+import json
 from convertCsv import getComments
 
 method = 'POST'
@@ -79,6 +80,9 @@ r = requests.post(endpoint, data=request_parameters.encode('utf-8'), headers=hea
 print('\nRESPONSE++++++++++++++++++++++++++++++++++++')
 print('Response code: %d\n' % r.status_code)
 print(r.text)
+y = json.loads(r.text)
+with open('data.json', 'w') as outfile:
+    json.dump(y, outfile)
 
 
 
