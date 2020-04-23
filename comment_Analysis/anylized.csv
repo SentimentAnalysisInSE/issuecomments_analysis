@@ -1,7 +1,7 @@
-Positive,Neutral,Negative,Mismatch,Total,,percent error
-1856,2072,1603,2339,5870,,39.84667802
-,,,,,,
-,,,,,,
-Positive,1856,,,,,
-Neutral,2072,,,,,
-Negative,1603,,,,,
+WatsonPositive,WatsonNeutral,WatsonNegative,WatsonMismatch,Total
+1856,2072,1603,2339,5870
+,,,,
+,,,,
+GooglePositive,GoogleNeutral,GoogleNegative,GoogleMismatch,Total
+1313,3267,1289,2552,5870
+comparison between google and watson, mismatch: 2776,,,
