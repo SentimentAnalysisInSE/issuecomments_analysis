@@ -10,4 +10,22 @@ Google scores have both magnitude and score magnitude indicates the overall stre
 
 AWS: Amazon Comprehend was used for sentiment analysis of the comments. The 'detect sentiment' operation returns the most likely sentiment for the text object as well as the scores for each of the four sentiments. The overall sentiment will be either positive, negative, neutral, or mixed.
 
-Amazon scores range from 0.0 to 1.0 and describe the level of confidence Amazon Comprehend has in the accuracy of its detection of sentiment. The most likely sentiment returned by the operation will have the highest score of the four sentiments.
+Amazon scores range from 0.0 to 1.0 and describe the level of confidence Amazon Comprehend has in the accuracy of its detection of sentiment. The most likely sentiment returned by the operation will have the highest score of the four sentiments. As seen in the example response, neutral is the determined sentiment even though the scores for neutral and positive are similar. The errror list documents which text items had errors. The error code, message, and index from the input list would be given for each error list object.
+
+
+
+Example AWS Response:
+{
+  "ErrorList": [], 
+  "ResultList": [
+    {
+      "Index": 0, 
+      "Sentiment": "NEUTRAL", 
+      "SentimentScore": {
+        "Mixed": 0.010275892913341522, 
+        "Negative": 0.16961470246315002, 
+        "Neutral": 0.4149356484413147, 
+        "Positive": 0.40517377853393555}
+      },
+}
+
