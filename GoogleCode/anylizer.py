@@ -8,10 +8,10 @@ def readfile():
     neutral= 0
     for line in raw_data:
         scores = line.split(",")
-        if(float(scores[0].strip())<-.25 and float(scores[1].strip()) >.2):
+        if(float(scores[0].strip())<-.15 and float(scores[1].strip()) >.2):
             a.write("negative\n")
             negitive+=1
-        elif(float(scores[0].strip())>.25 and float(scores[1].strip()) > .2):
+        elif(float(scores[0].strip())>.15 and float(scores[1].strip()) > .2):
             a.write("positive\n")
             positive+=1
         else:

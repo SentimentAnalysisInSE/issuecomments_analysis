@@ -17,6 +17,7 @@ client = authenticate_client()
 def sentiment_analysis(client):
     c = open("comments.txt")
     data = c.readlines()
+    c.close()
     for line in data:
         documents = [line]
         response = client.analyze_sentiment(documents = documents)[0]
@@ -26,7 +27,5 @@ def sentiment_analysis(client):
         response.confidence_scores.neutral,
         response.confidence_scores.negative,
     ))
-
-    f.close
           
 sentiment_analysis(client)

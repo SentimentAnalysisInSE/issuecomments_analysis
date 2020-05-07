@@ -1,7 +1,18 @@
-WatsonPositive,WatsonNeutral,WatsonNegative,WatsonMismatch,Total
-1856,2072,1603,2339,5870
-,,,,
-,,,,
-GooglePositive,GoogleNeutral,GoogleNegative,GoogleMismatch,Total
-1313,3267,1289,2552,5870
-comparison between google and watson, mismatch: 2776,,,
+WatsonPositive,WatsonNeutral,WatsonNegative,WatsonMismatch, false Positive,false neutral,false negative, Total
+1856,2072,1603,2000,860,110,1030,5871
+
+
+GooglePositive,GoogleNeutral,GoogleNegative,GoogleMismatch, false Positive,false neutral,false negative, Total
+1313,3267,1289,2551,777,900,874,5871
+comparison between google and watson, mismatch: 2776
+
+
+
+Google2Positive,Google2Neutral,Google2Negative, Google2Mismatch, false Positive,false neutral,false negative, Total
+1450,3049,1370,2512,812,763,937,5871
+
+
+
+
+Microsoft Positive,Neutral,Negative, Mismatch, false Positive,false neutral,false negative, Total
+1895,2438,1535,2158,963,295,900,5871
