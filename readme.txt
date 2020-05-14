@@ -1,5 +1,5 @@
 Google App web output site: eminent-expanse-270800.appspot.com
-[link to 1st refrence paper(dataset)]<https://dl.acm.org/doi/pdf/10.1145/2901739.2903505>
+[link to 1st refrence paper(dataset)](https://dl.acm.org/doi/pdf/10.1145/2901739.2903505)
 [Link to paper with results using tools with cleaned dataset](https://arxiv.org/ftp/arxiv/papers/1803/1803.06525.pdf)
 
 Watson: Watson Natrual Language unsderstanding is used for the anylisis. Watson supports 13 different languages  : Arabic, Chinese (Simplified), Dutch, English, French, German, Italian, Japanese, Korean, Portuguese, Russian, Spanish, Swedish. Watson uses the Sentiment keyword to extract a score and label for the setement. any score that is +- .2 of zero is assigned neautral with negitive scores being labeled negitive setement and positive scores gaining a positive lable for sentiment. This process is done automatically by the IBM servers with only the data being sent out required. To make a valid request you must provide the API key, URL and the Data to be anylized. For our anylisis we used the curl command with an automated script in python to make the call. this can be found on the github
