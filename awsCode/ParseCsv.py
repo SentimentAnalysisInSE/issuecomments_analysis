@@ -1,6 +1,7 @@
 import sys
 import re
 import csv
+from sklearn import metrics
 
 
 def Analyze(filename):
@@ -16,10 +17,16 @@ def Analyze(filename):
 
     with open(filename, newline='', encoding="ISO-8859-1") as csvfile:
         FileText = csv.reader(csvfile, delimiter='\n')
+        mLabels = []
+        AwsLabels = []
 
         for row in FileText:
             manualLabel = row[0].split(",")[2].lower()
             contents = row[0].split(",")[4].lower()
+            mLabels.append(manualLabel)
+            AwsLabels.append(contents)
+
+
             if (contents!= manualLabel):
                 mismatch += 1
                 if (contents == "neutral"):
@@ -44,6 +51,11 @@ def Analyze(filename):
     str(falsePositivesP) + '\n' +
     str(falsePositivesNeg) + '\n' +
     str(falsePositivesN) + '\n')
+
+    print("COHENKAPPPPPAAAAAA\n\n")
+    print(metrics.cohen_kappa_score(AwsLabels,mLabels))
+
+
 
 
 def main():

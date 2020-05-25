@@ -1,0 +1,4 @@
+Analisis is done using Google Natural Language To perform the inital anaylisis of the data run ShotInTheDark.py with the comments in comments.txt located in the same local directory. this will create bash scripts that will call the google api and write the scores to output.txt There is expectent to run on a linux or unix based system.
+After ouput.txt has been filled convert it into a joson array by adding brackets to the begining and end and run ParseJson.py to write out the magnitude and scores if it is redirected to the file you wish to write to. in the case of the project scores were written in tobeanylized.csv this is then read by anylizer.py which can then set the magnitude and score cutoffs desired. 
+final label is output to completedComments.csv
+ShotInTheDark.py -> ParseJason.py -> anylizer.py
