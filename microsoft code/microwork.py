@@ -15,17 +15,22 @@ def authenticate_client():
 client = authenticate_client()
 
 def sentiment_analysis(client):
-    c = open("comments.txt")
+    c = open("comments.txt",encoding="utf-8")
+    f = open("setiments.txt","w")
     data = c.readlines()
     c.close()
     for line in data:
         documents = [line]
+        print("getting the response")
         response = client.analyze_sentiment(documents = documents)[0]
-        print("Document Sentiment: {}".format(response.sentiment))
-        print("Overall scores: positive={0:.2f}; neutral={1:.2f}; negative={2:.2f} \n".format(
+        print("we got the response")
+        f.write("Document Sentiment: {}".format(response.sentiment)+"\n")
+        f.write("Overall scores: positive={0:.2f}; neutral={1:.2f}; negative={2:.2f} \n".format(
         response.confidence_scores.positive,
         response.confidence_scores.neutral,
-        response.confidence_scores.negative,
-    ))
+        response.confidence_scores.negative))
+    c.close()
+    f.close()
+
           
 sentiment_analysis(client)
