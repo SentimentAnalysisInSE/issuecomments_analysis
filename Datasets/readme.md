@@ -2,6 +2,8 @@
 
 [Link to paper with results using tools with cleaned dataset](https://arxiv.org/ftp/arxiv/papers/1803/1803.06525.pdf)
 
+[Additonal datasets for github and stack overflow comments were found in this paper](http://collab.di.uniba.it/nicole/wp-content/uploads/sites/6/2020/03/MSR_2020_cross_within_benchmark_preprint.pdf)
+
 The test Data set is to be used for Machine learning Testing while the Train is used for the training phase of machine learning.
 These datasets have been tested with kmeans, knearest neighbor and decision trees to get better ideas of the bredth of the data and ways to classify the different comments outside of the scope of the reaserch
 
