@@ -4,7 +4,7 @@ import numpy as np
 from postScript import *
 
 
-csvPathRead = '../Datasets/stack_overflow.csv'
+csvPathRead = '../Datasets/stack_overflow.csv'  
 sentiment = []
 sentimentScores = []
 data = {}
@@ -39,8 +39,7 @@ with open(csvPathRead, 'r', encoding="ISO-8859-1") as csvRead:
         elif len(curr) >= 1:
             data['TextList'].append(str(curr))
         else:
-            break
-            #data['TextList'].append(str(curr) + ' ')    #blank comments cause errors
+            data['TextList'].append(str(curr) + ' ')
         i += 1
         if i >= 25:          #request body takes a maximum of 25 text comments
             requestBody = json.dumps(data)
