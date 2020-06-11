@@ -16,7 +16,7 @@ client = authenticate_client()
 
 def sentiment_analysis(client):
     c = open("comments.txt",encoding="utf-8")
-    f = open("setiments.txt","w")
+    f = open("sentiments.txt","w")
     data = c.readlines()
     c.close()
     for line in data:
