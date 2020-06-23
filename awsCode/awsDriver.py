@@ -4,7 +4,7 @@ import numpy as np
 from postScript import *
 
 
-csvPathRead = '../Datasets/stack_overflow.csv'  
+csvPathRead = '../Datasets/stack_overflow.csv'
 sentiment = []
 sentimentScores = []
 data = {}

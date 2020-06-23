@@ -45,7 +45,7 @@ def evalLabels(data):
         truePositivesNeg += 1
 
 def Analyze(filename):
-    filename = '../comment_Analysis/stackAWS.csv'
+    filename = 'results/githubAWS.csv'
 
     with open(filename, newline='', encoding="ISO-8859-1") as csvfile:
         FileText = csv.reader(csvfile, delimiter='\n')
