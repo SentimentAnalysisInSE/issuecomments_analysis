@@ -8,6 +8,7 @@ def Kappa(filename):
     google20Labeles = []
     google25Labeles = []
     MicrosoftLabeles = []
+    awsLabels = []
     manuelLabel = []
 
 
@@ -16,23 +17,39 @@ def Kappa(filename):
 
         for row in FileText:
             manuelLabel.append(row[0].split(",")[8])
+            awsLabels.append(row[0].split(",")[10])
             watsonlabels.append(row[0].split(",")[2])
             google25Labeles.append(row[0].split(",")[5])
             google20Labeles.append(row[0].split(",")[6])
             MicrosoftLabeles.append(row[0].split(",")[7])
 
     csvfile.close()       
-    print("Microsoft")
-    print(metrics.cohen_kappa_score(MicrosoftLabeles,manuelLabel))
+    print("Microsoft v Google")
+    print(metrics.cohen_kappa_score(MicrosoftLabeles, google20Labeles))
+    #print(metrics.cohen_kappa_score(MicrosoftLabeles,manuelLabel, None, 'linear', [[0,1,2],[1,0,1],[2,1,0]]))
     print()
-    print("Google20")
-    print(metrics.cohen_kappa_score(google20Labeles,manuelLabel))
+    print("Microsoft v Watson")
+    print(metrics.cohen_kappa_score(MicrosoftLabeles, watsonlabels))
+    # print(metrics.cohen_kappa_score(MicrosoftLabeles,manuelLabel, None, 'linear', [[0,1,2],[1,0,1],[2,1,0]]))
+    print()
+    print("Microsoft v aws")
+    print(metrics.cohen_kappa_score(MicrosoftLabeles, awsLabels))
+    # print(metrics.cohen_kappa_score(MicrosoftLabeles,manuelLabel, None, 'linear', [[0,1,2],[1,0,1],[2,1,0]]))
+    print()
+    print("Google20 v Watson")
+    print(metrics.cohen_kappa_score(google20Labeles,watsonlabels))
+    print()
+    print("Google20 v aws")
+    print(metrics.cohen_kappa_score(google20Labeles, awsLabels))
     print()
     print("Google25")
     print(metrics.cohen_kappa_score(google25Labeles,manuelLabel))
     print()
-    print("Watson")
-    print(metrics.cohen_kappa_score(watsonlabels,manuelLabel))
+    print("Watson v aws")
+    print(metrics.cohen_kappa_score(watsonlabels, awsLabels))
+    print()
+    print("aws")
+    print(metrics.cohen_kappa_score(awsLabels, manuelLabel))
     print()
 
 
