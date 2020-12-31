@@ -11,6 +11,8 @@ truePositivesN = 0
 falsePositivesP = 0
 falsePositivesNeg = 0
 falsePositivesN = 0
+mild = 0;
+severe = 0;
 mLabels = []
 AwsLabels = []
 
@@ -22,6 +24,8 @@ def evalLabels(data):
     global falsePositivesP
     global falsePositivesNeg
     global falsePositivesN
+    global mild
+    global severe
     global mLabels
     global AwsLabels
     manualLabel = data['label'].lower()
@@ -35,8 +39,16 @@ def evalLabels(data):
             falsePositivesN += 1
         elif (contents == "positive"):
             falsePositivesP += 1
+            if (manualLabel == 'neutral'):
+                mild += 1;
+            else:
+                severe += 1
         elif (contents == "negative"):
             falsePositivesNeg += 1
+            if (manualLabel == 'neutral'):
+                mild += 1;
+            else:
+                severe += 1
     elif (contents == "neutral"):
         truePositivesN += 1
     elif (contents == "positive"):
@@ -56,6 +68,8 @@ def Analyze(filename):
         df.apply(evalLabels, axis=1)
         csvfile.close()
 
+    total = truePositivesN + truePositivesP + truePositivesNeg + mismatch
+    matches = truePositivesN + truePositivesP + truePositivesNeg
     print(mismatch)
     print(str(truePositivesP) + '\n' +
     str(truePositivesNeg) + '\n' +
@@ -63,6 +77,15 @@ def Analyze(filename):
     str(falsePositivesP) + '\n' +
     str(falsePositivesNeg) + '\n' +
     str(falsePositivesN) + '\n')
+    print('perfect agreement')
+    print(matches/total)
+    print()
+    print('severe disagreement')
+    print(severe/total)
+    print()
+    print('mild disagreement')
+    print((falsePositivesN + mild)/total)
+    print()
 
     print("COHENKAPPPPPAAAAAA\n\n")
     print(metrics.cohen_kappa_score(AwsLabels,mLabels))

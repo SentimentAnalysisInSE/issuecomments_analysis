@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9577c4-a8db-46bd-9f56-44c58cd7faef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment_Analysis/resultsAWS/awsJira.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment_Analysis/resultsAWS/githubAWS.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment_Analysis/resultsAWS/stackAWS.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awsCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/awsCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comment_Analysis/Stackparse.csv" beforeDir="false" afterPath="$PROJECT_DIR$/comment_Analysis/Stackparse.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comment_Analysis/cohenKappay.py" beforeDir="false" afterPath="$PROJECT_DIR$/comment_Analysis/cohenKappay.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comment_Analysis/githubparse.csv" beforeDir="false" afterPath="$PROJECT_DIR$/comment_Analysis/githubparse.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comment_Analysis/parsable.csv" beforeDir="false" afterPath="$PROJECT_DIR$/comment_Analysis/parsable.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awsCode/ParseCsv.py" beforeDir="false" afterPath="$PROJECT_DIR$/awsCode/ParseCsv.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comment_Analysis/cohenKappay.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+            <state relative-caret-position="690">
+              <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -32,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/awsCode/ParseCsv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="56" column="23" selection-start-line="49" selection-start-column="4" selection-end-line="56" selection-end-column="23" />
+            <state relative-caret-position="281">
+              <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -62,11 +54,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/comment_Analysis/cohenKappay.py" />
+        <option value="$PROJECT_DIR$/awsCode/ParseCsv.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-33" />
+    <option name="x" value="250" />
     <option name="y" value="22" />
     <option name="width" value="1133" />
     <option name="height" value="653" />
@@ -146,7 +139,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-33" y="22" width="1133" height="653" extended-state="0" />
+    <frame x="250" y="22" width="1133" height="653" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -180,16 +173,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/awsCode/ParseCsv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="56" column="23" selection-start-line="49" selection-start-column="4" selection-end-line="56" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comment_Analysis/parsable.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -199,8 +182,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/comment_Analysis/cohenKappay.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+        <state relative-caret-position="690">
+          <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awsCode/ParseCsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
